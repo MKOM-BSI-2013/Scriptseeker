@@ -50,3 +50,100 @@
 			</div>
 		</div>
 	</header>
+	<div id="menu-container">
+		<div id="menu-1" class="homepage home-section container">
+			
+			<div id="menu-home"></div>
+			<script>
+			$( "#menu-home" ).load( "home.html", function( response, status, xhr ) {
+			  if ( status == "error" ) {
+				var msg = "Sorry but there was an error: ";
+				$( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
+			  }
+			});
+			</script>
+			
+		</div>
+
+		<div id="menu-2" class="content about-section container">
+			
+			<div id="menu-about"></div>
+			<script>
+			$( "#menu-about" ).load( "about.html", function( response, status, xhr ) {
+			  if ( status == "error" ) {
+				var msg = "Sorry but there was an error: ";
+				$( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
+			  }
+			});
+			</script>
+			
+		</div>
+
+		<div id="menu-3" class="content project-section container">
+			
+			<div id="menu-project"></div>
+			<script>
+			$( "#menu-project" ).load( "project.html", function( response, status, xhr ) {
+			  if ( status == "error" ) {
+				var msg = "Sorry but there was an error: ";
+				$( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
+			  }
+			});
+			</script>
+			
+		</div>
+
+		<div id="menu-4" class="content blog-section container">
+			<div id="menu-service"></div>
+			<script>
+			$( "#menu-service" ).load( "service.html", function( response, status, xhr ) {
+			  if ( status == "error" ) {
+				var msg = "Sorry but there was an error: ";
+				$( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
+			  }
+			});
+			</script>
+		</div>
+
+		<div id="menu-5" class="content contact-section container">
+			<div id="menu-contact"></div>
+			<script>
+			$( "#menu-contact" ).load( "contact.html", function( response, status, xhr ) {
+			  if ( status == "error" ) {
+				var msg = "Sorry but there was an error: ";
+				$( "#error" ).html( msg + xhr.status + " " + xhr.statusText );
+			  }
+			});
+			</script>
+		</div>
+	</div>
+
+
+	<footer class="site-footer container text-center">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="main-footer">
+					<ul class="social">
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Instagram</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 copyright">
+				<p>Copyright &copy; 2015 <a href="#">The Scriptseeker IT Solution</a>. All Right Reserved.</p>				
+			</div>
+		</div>
+	</footer>
+
+	<span class="border-top"></span>
+	<span class="border-left"></span>
+	<span class="border-right"></span>
+	<span class="border-bottom"></span>
+	<span class="shape-1"></span>
+	<span class="shape-2"></span>	
+
+</body>
+</html>
