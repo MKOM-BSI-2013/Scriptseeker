@@ -265,7 +265,8 @@ h2.welcome-title {
 
 .project-item img {
     width: 100%;
-    display: block;
+    display: block;	
+	height: 250px;
 }
 
 .overlay {
